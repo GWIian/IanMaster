@@ -6,3 +6,5 @@ C:\Users\Choupimao\Desktop\IanMaster\MasterClient\obj\Debug\MasterClient.csproj.
 C:\Users\Choupimao\Desktop\IanMaster\MasterClient\obj\Debug\MasterClient.exe
 C:\Users\Choupimao\Desktop\IanMaster\MasterClient\obj\Debug\MasterClient.pdb
 C:\Users\Choupimao\Desktop\IanMaster\MasterClient\obj\Debug\MasterClient.MainWin.resources
+C:\gitprj\IanMaster\MasterClient\obj\Debug\MasterClient.exe
+C:\gitprj\IanMaster\MasterClient\obj\Debug\MasterClient.pdb

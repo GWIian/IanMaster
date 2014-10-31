@@ -99,9 +99,20 @@ namespace MasterServer
                 {
                     newClient = server.AcceptTcpClient();
                     clientList.Add(++clientId, newClient);
+                    new Thread(StartMessageLoop).Start(clientId);
                 }
-                catch (Exception){}
+                catch (Exception) { }
             }
+        }
+
+        /// <summary>
+        /// 进入CS tcp消息循环
+        /// </summary>
+        /// <param name="cid">tcp连接的id</param>
+        private static void StartMessageLoop(object cid)
+        {
+            int cid_i = (int)cid;
+            NetworkStream nStream = clientList[cid_i].GetStream();
         }
     }
 }
