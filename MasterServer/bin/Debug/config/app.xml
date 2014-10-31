@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--根节点-->
+<Conf>
+  <!--应用程序信息-->
+  <Application>
+    <!--版本号-->
+    <Version>0.0.1</Version>
+  </Application>
+
+  <!--网络配置-->
+  <Network>
+    <!--监听的网卡IP，0.0.0.0代表监听全部连接，127.0.0.1代表监听本地回环连接-->
+    <Listen>0.0.0.0</Listen>
+    <!--监听端口-->
+    <Port>33819</Port>
+    <!--最大终端连接数-->
+    <MaxConnection>500</MaxConnection>
+  </Network>
+</Conf>

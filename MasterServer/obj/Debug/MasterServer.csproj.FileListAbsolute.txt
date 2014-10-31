@@ -1,0 +1,8 @@
+C:\Users\Choupimao\Desktop\IanMaster\MasterServer\bin\Debug\MasterServer.exe
+C:\Users\Choupimao\Desktop\IanMaster\MasterServer\bin\Debug\MasterServer.pdb
+C:\Users\Choupimao\Desktop\IanMaster\MasterServer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Choupimao\Desktop\IanMaster\MasterServer\obj\Debug\MasterServer.MainWin.resources
+C:\Users\Choupimao\Desktop\IanMaster\MasterServer\obj\Debug\MasterServer.Properties.Resources.resources
+C:\Users\Choupimao\Desktop\IanMaster\MasterServer\obj\Debug\MasterServer.csproj.GenerateResource.Cache
+C:\Users\Choupimao\Desktop\IanMaster\MasterServer\obj\Debug\MasterServer.exe
+C:\Users\Choupimao\Desktop\IanMaster\MasterServer\obj\Debug\MasterServer.pdb

@@ -1,0 +1,5 @@
+C:\Users\Choupimao\Desktop\IanMaster\Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Choupimao\Desktop\IanMaster\Test\bin\Debug\Test.exe
+C:\Users\Choupimao\Desktop\IanMaster\Test\bin\Debug\Test.pdb
+C:\Users\Choupimao\Desktop\IanMaster\Test\obj\Debug\Test.exe
+C:\Users\Choupimao\Desktop\IanMaster\Test\obj\Debug\Test.pdb

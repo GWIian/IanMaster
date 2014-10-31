@@ -1,0 +1,8 @@
+C:\Users\Choupimao\Desktop\IanMaster\MasterClient\bin\Debug\MasterClient.exe
+C:\Users\Choupimao\Desktop\IanMaster\MasterClient\bin\Debug\MasterClient.pdb
+C:\Users\Choupimao\Desktop\IanMaster\MasterClient\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Choupimao\Desktop\IanMaster\MasterClient\obj\Debug\MasterClient.Properties.Resources.resources
+C:\Users\Choupimao\Desktop\IanMaster\MasterClient\obj\Debug\MasterClient.csproj.GenerateResource.Cache
+C:\Users\Choupimao\Desktop\IanMaster\MasterClient\obj\Debug\MasterClient.exe
+C:\Users\Choupimao\Desktop\IanMaster\MasterClient\obj\Debug\MasterClient.pdb
+C:\Users\Choupimao\Desktop\IanMaster\MasterClient\obj\Debug\MasterClient.MainWin.resources
