@@ -8,3 +8,11 @@ C:\Users\Choupimao\Desktop\IanMaster\MasterClient\obj\Debug\MasterClient.pdb
 C:\Users\Choupimao\Desktop\IanMaster\MasterClient\obj\Debug\MasterClient.MainWin.resources
 C:\gitprj\IanMaster\MasterClient\obj\Debug\MasterClient.exe
 C:\gitprj\IanMaster\MasterClient\obj\Debug\MasterClient.pdb
+C:\Documents and Settings\gwi\桌面\IanMaster\MasterClient\obj\Debug\MasterClient.exe
+C:\Documents and Settings\gwi\桌面\IanMaster\MasterClient\obj\Debug\MasterClient.pdb
+C:\Documents and Settings\gwi\桌面\IanMaster\MasterClient\bin\Debug\MasterClient.exe
+C:\Documents and Settings\gwi\桌面\IanMaster\MasterClient\bin\Debug\MasterClient.pdb
+C:\Documents and Settings\gwi\桌面\IanMaster\MasterClient\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\gwi\桌面\IanMaster\MasterClient\obj\Debug\MasterClient.MainWin.resources
+C:\Documents and Settings\gwi\桌面\IanMaster\MasterClient\obj\Debug\MasterClient.Properties.Resources.resources
+C:\Documents and Settings\gwi\桌面\IanMaster\MasterClient\obj\Debug\MasterClient.csproj.GenerateResource.Cache

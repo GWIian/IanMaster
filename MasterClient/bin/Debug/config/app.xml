@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--根节点-->
+<Conf>
+  <!--应用程序信息-->
+  <Application>
+    <!--版本号-->
+    <Version>0.0.1</Version>
+    <DeviceId>N610888</DeviceId>
+  </Application>
+
+  <!--网络配置-->
+  <Network>
+    <Ip>127.0.0.1</Ip>
+    <Port>33819</Port>
+  </Network>
+</Conf>

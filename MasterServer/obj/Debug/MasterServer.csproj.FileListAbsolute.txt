@@ -14,3 +14,11 @@ C:\gitprj\IanMaster\MasterServer\obj\Debug\MasterServer.Properties.Resources.res
 C:\gitprj\IanMaster\MasterServer\obj\Debug\MasterServer.csproj.GenerateResource.Cache
 C:\gitprj\IanMaster\MasterServer\obj\Debug\MasterServer.exe
 C:\gitprj\IanMaster\MasterServer\obj\Debug\MasterServer.pdb
+C:\Documents and Settings\gwi\桌面\IanMaster\MasterServer\bin\Debug\MasterServer.exe
+C:\Documents and Settings\gwi\桌面\IanMaster\MasterServer\bin\Debug\MasterServer.pdb
+C:\Documents and Settings\gwi\桌面\IanMaster\MasterServer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\gwi\桌面\IanMaster\MasterServer\obj\Debug\MasterServer.MainWin.resources
+C:\Documents and Settings\gwi\桌面\IanMaster\MasterServer\obj\Debug\MasterServer.Properties.Resources.resources
+C:\Documents and Settings\gwi\桌面\IanMaster\MasterServer\obj\Debug\MasterServer.csproj.GenerateResource.Cache
+C:\Documents and Settings\gwi\桌面\IanMaster\MasterServer\obj\Debug\MasterServer.exe
+C:\Documents and Settings\gwi\桌面\IanMaster\MasterServer\obj\Debug\MasterServer.pdb
