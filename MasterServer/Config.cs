@@ -36,7 +36,7 @@ namespace MasterServer
             XmlDocument xml = new XmlDocument();
             try
             {
-                xml.Load("config/app.xml");
+                xml.Load("config/MasterServer.xml");
                 XmlNode nConf = xml.SelectSingleNode("Conf");
                 Version = nConf["Application"]["Version"].InnerText;
                 Listen = nConf["Network"]["Listen"].InnerText;
