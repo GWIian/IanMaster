@@ -22,3 +22,13 @@ C:\Documents and Settings\gwi\桌面\IanMaster\MasterServer\obj\Debug\MasterServ
 C:\Documents and Settings\gwi\桌面\IanMaster\MasterServer\obj\Debug\MasterServer.csproj.GenerateResource.Cache
 C:\Documents and Settings\gwi\桌面\IanMaster\MasterServer\obj\Debug\MasterServer.exe
 C:\Documents and Settings\gwi\桌面\IanMaster\MasterServer\obj\Debug\MasterServer.pdb
+C:\Documents and Settings\ian\桌面\IanMaster\MasterServer\bin\Debug\MasterServer.exe
+C:\Documents and Settings\ian\桌面\IanMaster\MasterServer\bin\Debug\MasterServer.pdb
+C:\Documents and Settings\ian\桌面\IanMaster\MasterServer\bin\Debug\Common.dll
+C:\Documents and Settings\ian\桌面\IanMaster\MasterServer\bin\Debug\Common.pdb
+C:\Documents and Settings\ian\桌面\IanMaster\MasterServer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ian\桌面\IanMaster\MasterServer\obj\Debug\MasterServer.MainWin.resources
+C:\Documents and Settings\ian\桌面\IanMaster\MasterServer\obj\Debug\MasterServer.Properties.Resources.resources
+C:\Documents and Settings\ian\桌面\IanMaster\MasterServer\obj\Debug\MasterServer.csproj.GenerateResource.Cache
+C:\Documents and Settings\ian\桌面\IanMaster\MasterServer\obj\Debug\MasterServer.exe
+C:\Documents and Settings\ian\桌面\IanMaster\MasterServer\obj\Debug\MasterServer.pdb

@@ -16,3 +16,13 @@ C:\Documents and Settings\gwi\桌面\IanMaster\MasterClient\obj\Debug\ResolveAss
 C:\Documents and Settings\gwi\桌面\IanMaster\MasterClient\obj\Debug\MasterClient.MainWin.resources
 C:\Documents and Settings\gwi\桌面\IanMaster\MasterClient\obj\Debug\MasterClient.Properties.Resources.resources
 C:\Documents and Settings\gwi\桌面\IanMaster\MasterClient\obj\Debug\MasterClient.csproj.GenerateResource.Cache
+C:\Documents and Settings\ian\桌面\IanMaster\MasterClient\bin\Debug\MasterClient.exe
+C:\Documents and Settings\ian\桌面\IanMaster\MasterClient\bin\Debug\MasterClient.pdb
+C:\Documents and Settings\ian\桌面\IanMaster\MasterClient\bin\Debug\Common.dll
+C:\Documents and Settings\ian\桌面\IanMaster\MasterClient\bin\Debug\Common.pdb
+C:\Documents and Settings\ian\桌面\IanMaster\MasterClient\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ian\桌面\IanMaster\MasterClient\obj\Debug\MasterClient.MainWin.resources
+C:\Documents and Settings\ian\桌面\IanMaster\MasterClient\obj\Debug\MasterClient.Properties.Resources.resources
+C:\Documents and Settings\ian\桌面\IanMaster\MasterClient\obj\Debug\MasterClient.csproj.GenerateResource.Cache
+C:\Documents and Settings\ian\桌面\IanMaster\MasterClient\obj\Debug\MasterClient.exe
+C:\Documents and Settings\ian\桌面\IanMaster\MasterClient\obj\Debug\MasterClient.pdb

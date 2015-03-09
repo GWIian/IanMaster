@@ -3,3 +3,8 @@ C:\Documents and Settings\gwi\桌面\IanMaster\Common\bin\Release\Common.pdb
 C:\Documents and Settings\gwi\桌面\IanMaster\Common\obj\Release\ResolveAssemblyReference.cache
 C:\Documents and Settings\gwi\桌面\IanMaster\Common\obj\Release\Common.dll
 C:\Documents and Settings\gwi\桌面\IanMaster\Common\obj\Release\Common.pdb
+C:\Documents and Settings\ian\桌面\IanMaster\Common\bin\Release\Common.dll
+C:\Documents and Settings\ian\桌面\IanMaster\Common\bin\Release\Common.pdb
+C:\Documents and Settings\ian\桌面\IanMaster\Common\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\ian\桌面\IanMaster\Common\obj\Release\Common.dll
+C:\Documents and Settings\ian\桌面\IanMaster\Common\obj\Release\Common.pdb

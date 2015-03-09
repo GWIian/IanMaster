@@ -50,19 +50,19 @@
             this.miAbout,
             this.miExit});
             this.cmsMain.Name = "cmsMain";
-            this.cmsMain.Size = new System.Drawing.Size(101, 48);
+            this.cmsMain.Size = new System.Drawing.Size(95, 48);
             // 
             // miAbout
             // 
             this.miAbout.Name = "miAbout";
-            this.miAbout.Size = new System.Drawing.Size(100, 22);
+            this.miAbout.Size = new System.Drawing.Size(94, 22);
             this.miAbout.Text = "关于";
             this.miAbout.Click += new System.EventHandler(this.miAbout_Click);
             // 
             // miExit
             // 
             this.miExit.Name = "miExit";
-            this.miExit.Size = new System.Drawing.Size(100, 22);
+            this.miExit.Size = new System.Drawing.Size(94, 22);
             this.miExit.Text = "退出";
             this.miExit.Click += new System.EventHandler(this.miExit_Click);
             // 
@@ -76,6 +76,7 @@
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.Load += new System.EventHandler(this.MainWin_Load);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainWin_FormClosing);
             this.cmsMain.ResumeLayout(false);
             this.ResumeLayout(false);
 

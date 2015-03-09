@@ -10,3 +10,10 @@ C:\Documents and Settings\gwi\桌面\IanMaster\Test\obj\Debug\Test.exe
 C:\Documents and Settings\gwi\桌面\IanMaster\Test\obj\Debug\Test.pdb
 C:\Documents and Settings\gwi\桌面\IanMaster\Test\bin\Debug\Common.dll
 C:\Documents and Settings\gwi\桌面\IanMaster\Test\bin\Debug\Common.pdb
+C:\Documents and Settings\ian\桌面\IanMaster\Test\obj\Debug\Test.exe
+C:\Documents and Settings\ian\桌面\IanMaster\Test\obj\Debug\Test.pdb
+C:\Documents and Settings\ian\桌面\IanMaster\Test\bin\Debug\Test.exe
+C:\Documents and Settings\ian\桌面\IanMaster\Test\bin\Debug\Test.pdb
+C:\Documents and Settings\ian\桌面\IanMaster\Test\bin\Debug\Common.dll
+C:\Documents and Settings\ian\桌面\IanMaster\Test\bin\Debug\Common.pdb
+C:\Documents and Settings\ian\桌面\IanMaster\Test\obj\Debug\ResolveAssemblyReference.cache

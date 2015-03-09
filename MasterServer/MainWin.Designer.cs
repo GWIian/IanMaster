@@ -31,13 +31,18 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWin));
             this.msMain = new System.Windows.Forms.MenuStrip();
             this.miExit = new System.Windows.Forms.ToolStripMenuItem();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.lsbDevice = new System.Windows.Forms.ListBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnRestart = new System.Windows.Forms.Button();
+            this.btnShutdown = new System.Windows.Forms.Button();
             this.txbConsole = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.ssMain = new System.Windows.Forms.StatusStrip();
             this.slStatus = new System.Windows.Forms.ToolStripStatusLabel();
+            this.txbCmd = new System.Windows.Forms.TextBox();
+            this.btnCmd = new System.Windows.Forms.Button();
             this.msMain.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.ssMain.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,34 +52,58 @@
             this.miExit});
             this.msMain.Location = new System.Drawing.Point(0, 0);
             this.msMain.Name = "msMain";
-            this.msMain.Size = new System.Drawing.Size(592, 25);
+            this.msMain.Size = new System.Drawing.Size(592, 24);
             this.msMain.TabIndex = 0;
             this.msMain.Text = "menuStrip1";
             // 
             // miExit
             // 
             this.miExit.Name = "miExit";
-            this.miExit.Size = new System.Drawing.Size(68, 21);
+            this.miExit.Size = new System.Drawing.Size(65, 20);
             this.miExit.Text = "退出程序";
             this.miExit.Click += new System.EventHandler(this.miExit_Click);
             // 
-            // listBox1
+            // lsbDevice
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 12;
-            this.listBox1.Location = new System.Drawing.Point(12, 64);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(120, 292);
-            this.listBox1.TabIndex = 1;
+            this.lsbDevice.FormattingEnabled = true;
+            this.lsbDevice.ItemHeight = 12;
+            this.lsbDevice.Location = new System.Drawing.Point(12, 64);
+            this.lsbDevice.Name = "lsbDevice";
+            this.lsbDevice.Size = new System.Drawing.Size(120, 292);
+            this.lsbDevice.TabIndex = 1;
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btnCmd);
+            this.groupBox1.Controls.Add(this.txbCmd);
+            this.groupBox1.Controls.Add(this.btnRestart);
+            this.groupBox1.Controls.Add(this.btnShutdown);
             this.groupBox1.Location = new System.Drawing.Point(171, 40);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(409, 100);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "操作";
+            // 
+            // btnRestart
+            // 
+            this.btnRestart.Location = new System.Drawing.Point(86, 71);
+            this.btnRestart.Name = "btnRestart";
+            this.btnRestart.Size = new System.Drawing.Size(75, 23);
+            this.btnRestart.TabIndex = 1;
+            this.btnRestart.Text = "重启";
+            this.btnRestart.UseVisualStyleBackColor = true;
+            this.btnRestart.Click += new System.EventHandler(this.btnRestart_Click);
+            // 
+            // btnShutdown
+            // 
+            this.btnShutdown.Location = new System.Drawing.Point(6, 71);
+            this.btnShutdown.Name = "btnShutdown";
+            this.btnShutdown.Size = new System.Drawing.Size(75, 23);
+            this.btnShutdown.TabIndex = 0;
+            this.btnShutdown.Text = "关机";
+            this.btnShutdown.UseVisualStyleBackColor = true;
+            this.btnShutdown.Click += new System.EventHandler(this.btnShutdown_Click);
             // 
             // txbConsole
             // 
@@ -112,6 +141,23 @@
             this.slStatus.Name = "slStatus";
             this.slStatus.Size = new System.Drawing.Size(0, 17);
             // 
+            // txbCmd
+            // 
+            this.txbCmd.Location = new System.Drawing.Point(6, 16);
+            this.txbCmd.Name = "txbCmd";
+            this.txbCmd.Size = new System.Drawing.Size(317, 21);
+            this.txbCmd.TabIndex = 2;
+            // 
+            // btnCmd
+            // 
+            this.btnCmd.Location = new System.Drawing.Point(329, 14);
+            this.btnCmd.Name = "btnCmd";
+            this.btnCmd.Size = new System.Drawing.Size(75, 23);
+            this.btnCmd.TabIndex = 3;
+            this.btnCmd.Text = "发送cmd";
+            this.btnCmd.UseVisualStyleBackColor = true;
+            this.btnCmd.Click += new System.EventHandler(this.btnCmd_Click);
+            // 
             // MainWin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -121,7 +167,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txbConsole);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.lsbDevice);
             this.Controls.Add(this.msMain);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -134,6 +180,8 @@
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainWin_FormClosing);
             this.msMain.ResumeLayout(false);
             this.msMain.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ssMain.ResumeLayout(false);
             this.ssMain.PerformLayout();
             this.ResumeLayout(false);
@@ -145,12 +193,16 @@
 
         private System.Windows.Forms.MenuStrip msMain;
         private System.Windows.Forms.ToolStripMenuItem miExit;
-        private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox txbConsole;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.StatusStrip ssMain;
         private System.Windows.Forms.ToolStripStatusLabel slStatus;
+        public System.Windows.Forms.ListBox lsbDevice;
+        private System.Windows.Forms.Button btnShutdown;
+        private System.Windows.Forms.Button btnRestart;
+        private System.Windows.Forms.Button btnCmd;
+        private System.Windows.Forms.TextBox txbCmd;
+        public System.Windows.Forms.TextBox txbConsole;
     }
 }
 

@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using System;
 
-namespace MasterServer
+namespace Common
 {
     /// <summary>
     /// 日志操作类

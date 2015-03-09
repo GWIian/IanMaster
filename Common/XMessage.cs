@@ -25,6 +25,18 @@ namespace Common
         /// </summary>
         private string raw;
 
+
+        /// <summary>
+        /// 获取明文数据
+        /// </summary>
+        public string Raw
+        {
+            get
+            {
+                return raw;
+            }
+        }
+
         /// <summary>
         /// 获取或设置协议内容的类型
         /// </summary>

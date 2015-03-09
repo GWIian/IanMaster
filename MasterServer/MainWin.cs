@@ -5,6 +5,8 @@ namespace MasterServer
 {
     public partial class MainWin : Form
     {
+        public static MainWin ServerHandle;
+
         public MainWin()
         {
             InitializeComponent();
@@ -15,12 +17,14 @@ namespace MasterServer
         {
             Config.LoadConfig();
             this.Text += " Version: " + Config.Version;
+            Control.CheckForIllegalCrossThreadCalls = false;
+            ServerHandle = this;
         }
 
         /// <summary>
         /// 退出程序
         /// </summary>
-        private void Exit()
+        public void Exit()
         {
             Application.Exit();
         }
@@ -50,6 +54,39 @@ namespace MasterServer
         {
             slStatus.Text = "关闭服务...";
             Server.Stop();
+        }
+
+        private void btnShutdown_Click(object sender, EventArgs e)
+        {
+            object dev = lsbDevice.SelectedItem;
+            if (dev != null)
+            {
+                Server.Shutdown(int.Parse(dev.ToString().Split('@')[1]));
+                txbConsole.AppendText("向" + dev.ToString() + "的关机命令已发送。\n");
+            }
+            
+        }
+
+        private void btnRestart_Click(object sender, EventArgs e)
+        {
+            object dev = lsbDevice.SelectedItem;
+            if (dev != null)
+            {
+                Server.Restart(int.Parse(dev.ToString().Split('@')[1]));
+                txbConsole.AppendText("向" + dev.ToString() + "的重启命令已发送。\n");
+            }
+            
+        }
+
+        private void btnCmd_Click(object sender, EventArgs e)
+        {
+            object dev = lsbDevice.SelectedItem;
+            if (dev != null)
+            {
+                Server.Cmd(int.Parse(dev.ToString().Split('@')[1]), txbCmd.Text);
+                txbConsole.AppendText("向" + dev.ToString() + "的Cmd命令已发送。\n");
+            }
+            
         }
     }
 }

@@ -1,11 +1,11 @@
-﻿using System.Xml;
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Xml;
 
-namespace MasterServer
+namespace MasterClient
 {
-    /// <summary>
-    /// 配置文件常数类
-    /// </summary>
     public class Config
     {
         /// <summary>
@@ -14,19 +14,19 @@ namespace MasterServer
         public static string Version;
 
         /// <summary>
+        /// 设备号
+        /// </summary>
+        public static string DeviceId;
+
+        /// <summary>
         /// 服务监听的IP
         /// </summary>
-        public static string Listen;
+        public static string Ip;
 
         /// <summary>
         /// 服务监听的端口号
         /// </summary>
         public static string Port;
-
-        /// <summary>
-        /// 最大终端连接数
-        /// </summary>
-        public static string MaxConnection;
 
         /// <summary>
         /// 载入配置
@@ -36,12 +36,12 @@ namespace MasterServer
             XmlDocument xml = new XmlDocument();
             try
             {
-                xml.Load("config/MasterServer.xml");
+                xml.Load("config/MasterClient.xml");
                 XmlNode nConf = xml.SelectSingleNode("Conf");
                 Version = nConf["Application"]["Version"].InnerText;
-                Listen = nConf["Network"]["Listen"].InnerText;
+                DeviceId = nConf["Application"]["DeviceId"].InnerText;
+                Ip = nConf["Network"]["Ip"].InnerText;
                 Port = nConf["Network"]["Port"].InnerText;
-                MaxConnection = nConf["Network"]["MaxConnection"].InnerText;
             }
             catch (Exception e)
             {
@@ -55,9 +55,9 @@ namespace MasterServer
         public void Reset()
         {
             Version = string.Empty;
-            Listen = string.Empty;
+            DeviceId = string.Empty;
+            Ip = string.Empty;
             Port = string.Empty;
-            MaxConnection = string.Empty;
         }
     }
 }

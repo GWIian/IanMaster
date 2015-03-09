@@ -6,3 +6,13 @@ C:\Documents and Settings\gwi\桌面\IanMaster\MasterServer\obj\Release\MasterSe
 C:\Documents and Settings\gwi\桌面\IanMaster\MasterServer\obj\Release\MasterServer.csproj.GenerateResource.Cache
 C:\Documents and Settings\gwi\桌面\IanMaster\MasterServer\obj\Release\MasterServer.exe
 C:\Documents and Settings\gwi\桌面\IanMaster\MasterServer\obj\Release\MasterServer.pdb
+C:\Documents and Settings\ian\桌面\IanMaster\MasterServer\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\ian\桌面\IanMaster\MasterServer\obj\Release\MasterServer.MainWin.resources
+C:\Documents and Settings\ian\桌面\IanMaster\MasterServer\obj\Release\MasterServer.Properties.Resources.resources
+C:\Documents and Settings\ian\桌面\IanMaster\MasterServer\obj\Release\MasterServer.csproj.GenerateResource.Cache
+C:\Documents and Settings\ian\桌面\IanMaster\MasterServer\bin\Release\MasterServer.exe
+C:\Documents and Settings\ian\桌面\IanMaster\MasterServer\bin\Release\MasterServer.pdb
+C:\Documents and Settings\ian\桌面\IanMaster\MasterServer\bin\Release\Common.dll
+C:\Documents and Settings\ian\桌面\IanMaster\MasterServer\bin\Release\Common.pdb
+C:\Documents and Settings\ian\桌面\IanMaster\MasterServer\obj\Release\MasterServer.exe
+C:\Documents and Settings\ian\桌面\IanMaster\MasterServer\obj\Release\MasterServer.pdb
