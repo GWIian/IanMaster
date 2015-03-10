@@ -110,6 +110,7 @@ namespace Common
             }
             catch (Exception)
             {
+                Log.WriteLog("XMessage.XMessage", "解析协议失败,数据源不是正确的协议格式[" + data + "]");
                 throw new Exception("解析协议失败,数据源不是正确的协议格式");
             }
             raw = data;

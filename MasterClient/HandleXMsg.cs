@@ -5,6 +5,7 @@ using System.Text;
 using System.Diagnostics;
 using System.Windows.Forms;
 using Common;
+using System.Threading;
 
 namespace MasterClient
 {
@@ -55,7 +56,7 @@ namespace MasterClient
             pro.Start();
             pro.StandardInput.WriteLine(xmsg.Params["Content"]);
             pro.StandardInput.WriteLine("exit");
-            pro.WaitForExit();
+            //pro.WaitForExit();
 
             string output = pro.StandardOutput.ReadToEnd();
             string error = pro.StandardError.ReadToEnd();

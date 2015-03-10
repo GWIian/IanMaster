@@ -140,6 +140,7 @@ namespace MasterServer
                         {
                             read = nStream.Read(buffer, 0, buffer.Length);
                             sbbuffer.Append(Encoding.Unicode.GetString(buffer, 0, read));
+                            Thread.Sleep(100);
                             if (!nStream.DataAvailable)
                             {
                                 HandleMessage(sbbuffer.ToString(),(int)cid);

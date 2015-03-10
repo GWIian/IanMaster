@@ -1,0 +1,1 @@
+[2015-03-10 11:09:27] [Config.LoadConfig] [未能找到路径“C:\Documents and Settings\ian\桌面\IanMaster\MasterServer\bin\Release\config\MasterServer.xml”的一部分。]
