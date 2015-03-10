@@ -14,7 +14,7 @@ namespace Common
         /// <returns></returns>
         public static string EncodingText(string text)
         {
-            return text.Replace("<", "&lt;").Replace(">", "&gt;");
+            return text.Replace("<", "&lt;").Replace(">", "&gt;").Replace("\"", "&quot;").Replace("'", "&apos;");
         }
 
         /// <summary>
@@ -24,7 +24,7 @@ namespace Common
         /// <returns></returns>
         public static string DecodingText(string text)
         {
-            return text.Replace("&lt;", "<").Replace("&gt;", ">");
+            return text.Replace("&lt;", "<").Replace("&gt;", ">").Replace("&quot;", "\"").Replace("&apos;", "'");
         }
     }
 }
